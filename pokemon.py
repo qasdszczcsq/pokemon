@@ -11,7 +11,7 @@ import time
 import csv
 import os
 from selenium.webdriver.chrome.options import Options
-from seleniumwebdriverchrome.service import Service
+from seleniumwebdriver.chrome.service import Service
 
 service = Service(executable_path="/usr/bin/chromedrive")
 options = Options()
